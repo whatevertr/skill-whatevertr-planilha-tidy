@@ -1,0 +1,333 @@
+{
+  "titulo": "Dados dos Planetas do Sistema Solar",
+  "abas": [
+    {
+      "nome": "Planetas",
+      "display_name": "Planetas",
+      "nota": "Dados astronômicos de domínio público (base NASA Planetary Fact Sheet). Distância mínima à Terra e número de luas são aproximados e variam — ver aba Premissas. Exemplo neutro da skill whatevertr-planilha-tidy.",
+      "colunas": [
+        {
+          "nome": "Planeta",
+          "tipo": "texto",
+          "exemplo": "Marte",
+          "descricao": "Nome do planeta do Sistema Solar."
+        },
+        {
+          "nome": "Tipo",
+          "tipo": "texto",
+          "dominio": "rochoso | gigante gasoso | gigante de gelo",
+          "exemplo": "rochoso",
+          "descricao": "Classificação do planeta."
+        },
+        {
+          "nome": "Diâmetro equatorial (km)",
+          "tipo": "inteiro",
+          "unidade": "km",
+          "formato": "#,##0",
+          "exemplo": 6792,
+          "descricao": "Diâmetro no equador."
+        },
+        {
+          "nome": "Massa (10^24 kg)",
+          "tipo": "número",
+          "unidade": "10^24 kg",
+          "formato": "#,##0.000",
+          "exemplo": 0.642,
+          "descricao": "Massa em 10^24 quilogramas."
+        },
+        {
+          "nome": "Distância média ao Sol (10^6 km)",
+          "tipo": "número",
+          "unidade": "10^6 km",
+          "formato": "#,##0.0",
+          "exemplo": 227.9,
+          "descricao": "Semieixo maior da órbita."
+        },
+        {
+          "nome": "Distância mínima à Terra (10^6 km)",
+          "tipo": "número",
+          "unidade": "10^6 km",
+          "formato": "#,##0.0",
+          "exemplo": 54.6,
+          "descricao": "Aproximação mínima Terra-planeta (aproximado; varia com a órbita)."
+        },
+        {
+          "nome": "Período de rotação (horas)",
+          "tipo": "número",
+          "unidade": "horas",
+          "formato": "#,##0.0",
+          "exemplo": 24.6,
+          "descricao": "Duração do dia sideral."
+        },
+        {
+          "nome": "Sentido de rotação",
+          "tipo": "texto",
+          "dominio": "direto | retrógrado",
+          "exemplo": "direto",
+          "descricao": "Sentido da rotação (conceito próprio: não codificar no sinal do número)."
+        },
+        {
+          "nome": "Período orbital (dias terrestres)",
+          "tipo": "número",
+          "unidade": "dias",
+          "formato": "#,##0.0",
+          "exemplo": 687.0,
+          "descricao": "Duração do ano (uma volta ao Sol)."
+        },
+        {
+          "nome": "Número de luas confirmadas",
+          "tipo": "inteiro",
+          "unidade": "luas",
+          "formato": "#,##0",
+          "exemplo": 2,
+          "descricao": "Satélites confirmados (aproximado; aumenta com novas descobertas)."
+        },
+        {
+          "nome": "Gases atmosféricos principais",
+          "tipo": "texto",
+          "exemplo": "CO2, N2, Ar",
+          "descricao": "Principais gases observados na atmosfera."
+        },
+        {
+          "nome": "Tempo - carro a 100 km/h (anos)",
+          "tipo": "número",
+          "unidade": "anos",
+          "formato": "#,##0",
+          "exemplo": 623,
+          "descricao": "Tempo de viagem hipotético a 100 km/h."
+        },
+        {
+          "nome": "Tempo - avião a 900 km/h (anos)",
+          "tipo": "número",
+          "unidade": "anos",
+          "formato": "#,##0",
+          "exemplo": 69,
+          "descricao": "Tempo de viagem hipotético a 900 km/h."
+        },
+        {
+          "nome": "Tempo - luz (minutos)",
+          "tipo": "número",
+          "unidade": "minutos",
+          "formato": "#,##0.0",
+          "exemplo": 3.0,
+          "descricao": "Tempo que a luz leva no vácuo."
+        },
+        {
+          "nome": "Prioridade de estudo",
+          "tipo": "texto",
+          "preencher": true,
+          "descricao": "Campo em branco para o usuário preencher (demonstra célula editável)."
+        }
+      ],
+      "dados": [
+        {
+          "Planeta": "Mercúrio",
+          "Tipo": "rochoso",
+          "Diâmetro equatorial (km)": 4879,
+          "Massa (10^24 kg)": 0.33,
+          "Distância média ao Sol (10^6 km)": 57.9,
+          "Distância mínima à Terra (10^6 km)": 77.3,
+          "Período de rotação (horas)": 1407.6,
+          "Sentido de rotação": "direto",
+          "Período orbital (dias terrestres)": 88.0,
+          "Número de luas confirmadas": 0,
+          "Gases atmosféricos principais": "Traços de O, Na, H, He (praticamente sem atmosfera)",
+          "Tempo - carro a 100 km/h (anos)": 88.0,
+          "Tempo - avião a 900 km/h (anos)": 10.0,
+          "Tempo - luz (minutos)": 4.3
+        },
+        {
+          "Planeta": "Vênus",
+          "Tipo": "rochoso",
+          "Diâmetro equatorial (km)": 12104,
+          "Massa (10^24 kg)": 4.87,
+          "Distância média ao Sol (10^6 km)": 108.2,
+          "Distância mínima à Terra (10^6 km)": 38.2,
+          "Período de rotação (horas)": 5832.5,
+          "Sentido de rotação": "retrógrado",
+          "Período orbital (dias terrestres)": 224.7,
+          "Número de luas confirmadas": 0,
+          "Gases atmosféricos principais": "CO2, N2 (nuvens de ácido sulfúrico)",
+          "Tempo - carro a 100 km/h (anos)": 44.0,
+          "Tempo - avião a 900 km/h (anos)": 5.0,
+          "Tempo - luz (minutos)": 2.1
+        },
+        {
+          "Planeta": "Terra",
+          "Tipo": "rochoso",
+          "Diâmetro equatorial (km)": 12756,
+          "Massa (10^24 kg)": 5.97,
+          "Distância média ao Sol (10^6 km)": 149.6,
+          "Distância mínima à Terra (10^6 km)": 0.0,
+          "Período de rotação (horas)": 23.9,
+          "Sentido de rotação": "direto",
+          "Período orbital (dias terrestres)": 365.2,
+          "Número de luas confirmadas": 1,
+          "Gases atmosféricos principais": "N2, O2",
+          "Tempo - carro a 100 km/h (anos)": 0.0,
+          "Tempo - avião a 900 km/h (anos)": 0.0,
+          "Tempo - luz (minutos)": 0.0
+        },
+        {
+          "Planeta": "Marte",
+          "Tipo": "rochoso",
+          "Diâmetro equatorial (km)": 6792,
+          "Massa (10^24 kg)": 0.642,
+          "Distância média ao Sol (10^6 km)": 227.9,
+          "Distância mínima à Terra (10^6 km)": 54.6,
+          "Período de rotação (horas)": 24.6,
+          "Sentido de rotação": "direto",
+          "Período orbital (dias terrestres)": 687.0,
+          "Número de luas confirmadas": 2,
+          "Gases atmosféricos principais": "CO2, N2, Ar",
+          "Tempo - carro a 100 km/h (anos)": 62.0,
+          "Tempo - avião a 900 km/h (anos)": 7.0,
+          "Tempo - luz (minutos)": 3.0
+        },
+        {
+          "Planeta": "Júpiter",
+          "Tipo": "gigante gasoso",
+          "Diâmetro equatorial (km)": 142984,
+          "Massa (10^24 kg)": 1898.0,
+          "Distância média ao Sol (10^6 km)": 778.6,
+          "Distância mínima à Terra (10^6 km)": 588.5,
+          "Período de rotação (horas)": 9.9,
+          "Sentido de rotação": "direto",
+          "Período orbital (dias terrestres)": 4331.0,
+          "Número de luas confirmadas": 95,
+          "Gases atmosféricos principais": "H2, He",
+          "Tempo - carro a 100 km/h (anos)": 671.0,
+          "Tempo - avião a 900 km/h (anos)": 75.0,
+          "Tempo - luz (minutos)": 32.7
+        },
+        {
+          "Planeta": "Saturno",
+          "Tipo": "gigante gasoso",
+          "Diâmetro equatorial (km)": 120536,
+          "Massa (10^24 kg)": 568.0,
+          "Distância média ao Sol (10^6 km)": 1433.5,
+          "Distância mínima à Terra (10^6 km)": 1195.5,
+          "Período de rotação (horas)": 10.7,
+          "Sentido de rotação": "direto",
+          "Período orbital (dias terrestres)": 10747.0,
+          "Número de luas confirmadas": 146,
+          "Gases atmosféricos principais": "H2, He",
+          "Tempo - carro a 100 km/h (anos)": 1364.0,
+          "Tempo - avião a 900 km/h (anos)": 152.0,
+          "Tempo - luz (minutos)": 66.5
+        },
+        {
+          "Planeta": "Urano",
+          "Tipo": "gigante de gelo",
+          "Diâmetro equatorial (km)": 51118,
+          "Massa (10^24 kg)": 86.8,
+          "Distância média ao Sol (10^6 km)": 2872.5,
+          "Distância mínima à Terra (10^6 km)": 2581.9,
+          "Período de rotação (horas)": 17.2,
+          "Sentido de rotação": "retrógrado",
+          "Período orbital (dias terrestres)": 30589.0,
+          "Número de luas confirmadas": 28,
+          "Gases atmosféricos principais": "H2, He, CH4 (metano)",
+          "Tempo - carro a 100 km/h (anos)": 2945.0,
+          "Tempo - avião a 900 km/h (anos)": 327.0,
+          "Tempo - luz (minutos)": 143.5
+        },
+        {
+          "Planeta": "Netuno",
+          "Tipo": "gigante de gelo",
+          "Diâmetro equatorial (km)": 49528,
+          "Massa (10^24 kg)": 102.0,
+          "Distância média ao Sol (10^6 km)": 4495.1,
+          "Distância mínima à Terra (10^6 km)": 4305.9,
+          "Período de rotação (horas)": 16.1,
+          "Sentido de rotação": "direto",
+          "Período orbital (dias terrestres)": 59800.0,
+          "Número de luas confirmadas": 16,
+          "Gases atmosféricos principais": "H2, He, CH4 (metano)",
+          "Tempo - carro a 100 km/h (anos)": 4912.0,
+          "Tempo - avião a 900 km/h (anos)": 546.0,
+          "Tempo - luz (minutos)": 239.4
+        }
+      ]
+    }
+  ],
+  "premissas": [
+    [
+      "1. Fontes de dados",
+      [
+        [
+          "Fatos planetários",
+          "NASA Planetary Fact Sheet (domínio público): diâmetro, massa, rotação, período orbital, gases."
+        ],
+        [
+          "Tempos de viagem",
+          "Calculados: distância mínima à Terra ÷ velocidade. Luz a 299.792,458 km/s."
+        ]
+      ]
+    ],
+    [
+      "2. Limitações conhecidas",
+      [
+        [
+          "Distância mínima à Terra",
+          "Aproximada; varia continuamente com as órbitas. A da Terra é 0 (referência)."
+        ],
+        [
+          "Número de luas",
+          "Confirmadas até a compilação; cresce com novas descobertas."
+        ],
+        [
+          "Sentido de rotação",
+          "Vênus e Urano giram em sentido retrógrado; registrado em coluna própria, não no sinal do número de rotação."
+        ]
+      ]
+    ],
+    [
+      "3. Métodos de cálculo",
+      [
+        [
+          "Tempo (anos)",
+          "distância_km ÷ velocidade_km/h ÷ 24 ÷ 365,25."
+        ],
+        [
+          "Tempo - luz (min)",
+          "distância_km ÷ 299.792,458 ÷ 60."
+        ]
+      ]
+    ],
+    [
+      "4. Convenção de cores",
+      [
+        [
+          "Azul-escuro (1F4E78)",
+          "Cabeçalho das tabelas."
+        ],
+        [
+          "Amarelo claro (FFF2CC)",
+          "Nota explicativa no topo da aba."
+        ],
+        [
+          "Laranja claro (FFEFE0)",
+          "Célula em branco para preenchimento manual (ex.: Prioridade de estudo)."
+        ],
+        [
+          "Azul claro (D9E1F2)",
+          "Títulos de seção na Premissas."
+        ]
+      ]
+    ],
+    [
+      "5. Navegável por IA",
+      [
+        [
+          "Schema",
+          "A aba Schema traz coluna, tipo, unidade, domínio e exemplo — legível por máquina."
+        ],
+        [
+          "Companheiros",
+          "Opcional: .csv (dados) e .schema.json (estrutura) ao lado do .xlsx."
+        ]
+      ]
+    ]
+  ]
+}

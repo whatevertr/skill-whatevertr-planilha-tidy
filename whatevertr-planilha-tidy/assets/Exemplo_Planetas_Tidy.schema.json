@@ -1,0 +1,115 @@
+{
+  "titulo": "Dados dos Planetas do Sistema Solar",
+  "abas": [
+    {
+      "nome": "Planetas",
+      "colunas": [
+        {
+          "nome": "Planeta",
+          "tipo": "string",
+          "unidade": null,
+          "dominio": null,
+          "descricao": "Nome do planeta do Sistema Solar."
+        },
+        {
+          "nome": "Tipo",
+          "tipo": "string",
+          "unidade": null,
+          "dominio": "rochoso | gigante gasoso | gigante de gelo",
+          "descricao": "Classificação do planeta."
+        },
+        {
+          "nome": "Diâmetro equatorial (km)",
+          "tipo": "integer",
+          "unidade": "km",
+          "dominio": null,
+          "descricao": "Diâmetro no equador."
+        },
+        {
+          "nome": "Massa (10^24 kg)",
+          "tipo": "number",
+          "unidade": "10^24 kg",
+          "dominio": null,
+          "descricao": "Massa em 10^24 quilogramas."
+        },
+        {
+          "nome": "Distância média ao Sol (10^6 km)",
+          "tipo": "number",
+          "unidade": "10^6 km",
+          "dominio": null,
+          "descricao": "Semieixo maior da órbita."
+        },
+        {
+          "nome": "Distância mínima à Terra (10^6 km)",
+          "tipo": "number",
+          "unidade": "10^6 km",
+          "dominio": null,
+          "descricao": "Aproximação mínima Terra-planeta (aproximado; varia com a órbita)."
+        },
+        {
+          "nome": "Período de rotação (horas)",
+          "tipo": "number",
+          "unidade": "horas",
+          "dominio": null,
+          "descricao": "Duração do dia sideral."
+        },
+        {
+          "nome": "Sentido de rotação",
+          "tipo": "string",
+          "unidade": null,
+          "dominio": "direto | retrógrado",
+          "descricao": "Sentido da rotação (conceito próprio: não codificar no sinal do número)."
+        },
+        {
+          "nome": "Período orbital (dias terrestres)",
+          "tipo": "number",
+          "unidade": "dias",
+          "dominio": null,
+          "descricao": "Duração do ano (uma volta ao Sol)."
+        },
+        {
+          "nome": "Número de luas confirmadas",
+          "tipo": "integer",
+          "unidade": "luas",
+          "dominio": null,
+          "descricao": "Satélites confirmados (aproximado; aumenta com novas descobertas)."
+        },
+        {
+          "nome": "Gases atmosféricos principais",
+          "tipo": "string",
+          "unidade": null,
+          "dominio": null,
+          "descricao": "Principais gases observados na atmosfera."
+        },
+        {
+          "nome": "Tempo - carro a 100 km/h (anos)",
+          "tipo": "number",
+          "unidade": "anos",
+          "dominio": null,
+          "descricao": "Tempo de viagem hipotético a 100 km/h."
+        },
+        {
+          "nome": "Tempo - avião a 900 km/h (anos)",
+          "tipo": "number",
+          "unidade": "anos",
+          "dominio": null,
+          "descricao": "Tempo de viagem hipotético a 900 km/h."
+        },
+        {
+          "nome": "Tempo - luz (minutos)",
+          "tipo": "number",
+          "unidade": "minutos",
+          "dominio": null,
+          "descricao": "Tempo que a luz leva no vácuo."
+        },
+        {
+          "nome": "Prioridade de estudo",
+          "tipo": "string",
+          "unidade": null,
+          "dominio": null,
+          "descricao": "Campo em branco para o usuário preencher (demonstra célula editável)."
+        }
+      ]
+    }
+  ]
+}

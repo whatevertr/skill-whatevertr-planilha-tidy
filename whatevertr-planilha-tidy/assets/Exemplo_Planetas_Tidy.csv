@@ -1,0 +1,9 @@
+Planeta,Tipo,Diâmetro equatorial (km),Massa (10^24 kg),Distância média ao Sol (10^6 km),Distância mínima à Terra (10^6 km),Período de rotação (horas),Sentido de rotação,Período orbital (dias terrestres),Número de luas confirmadas,Gases atmosféricos principais,Tempo - carro a 100 km/h (anos),Tempo - avião a 900 km/h (anos),Tempo - luz (minutos),Prioridade de estudo
+Mercúrio,rochoso,4879,0.33,57.9,77.3,1407.6,direto,88.0,0,"Traços de O, Na, H, He (praticamente sem atmosfera)",88.0,10.0,4.3,
+Vênus,rochoso,12104,4.87,108.2,38.2,5832.5,retrógrado,224.7,0,"CO2, N2 (nuvens de ácido sulfúrico)",44.0,5.0,2.1,
+Terra,rochoso,12756,5.97,149.6,0.0,23.9,direto,365.2,1,"N2, O2",0.0,0.0,0.0,
+Marte,rochoso,6792,0.642,227.9,54.6,24.6,direto,687.0,2,"CO2, N2, Ar",62.0,7.0,3.0,
+Júpiter,gigante gasoso,142984,1898.0,778.6,588.5,9.9,direto,4331.0,95,"H2, He",671.0,75.0,32.7,
+Saturno,gigante gasoso,120536,568.0,1433.5,1195.5,10.7,direto,10747.0,146,"H2, He",1364.0,152.0,66.5,
+Urano,gigante de gelo,51118,86.8,2872.5,2581.9,17.2,retrógrado,30589.0,28,"H2, He, CH4 (metano)",2945.0,327.0,143.5,
+Netuno,gigante de gelo,49528,102.0,4495.1,4305.9,16.1,direto,59800.0,16,"H2, He, CH4 (metano)",4912.0,546.0,239.4,
